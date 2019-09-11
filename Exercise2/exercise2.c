@@ -3,13 +3,14 @@
 
 
 void main(){
-	int a,b,R;
-  printf("Enter a value");
+	int a,b,c,R;
+  printf("Enter first value");
   scanf("%d", &a);
-  printf("Enter other value");
+  printf("Enter second value");
   scanf("%d", &b);
-  
-	R = a + b;
-	
-	printf("The value is %d",R);
+  printf("Enter third value");
+ scanf("%d", &c);
+	R = a + b + c;
+printf("The result is %d",R);
+
 }
